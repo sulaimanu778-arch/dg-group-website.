@@ -146,3 +146,17 @@ h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; margin: 0 0 10px; 
 .button-outline:hover { background: rgba(22, 119, 255, 0.2); border-color: var(--blue); }
 .button-outline { color: var(--white); }
 .button-outline:hover { background: rgba(22, 119, 255, 0.2); border-color: var(--blue); }
+/* Vision and values */
+.vision { background: var(--navy); color: var(--white); }
+.vision h2 { color: var(--white); }
+.vision-text { font-size: 1.2rem; max-width: 720px; margin: 0; color: #D5DEE9; }
+.value-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #E8F1FF;
+  color: var(--blue);
+  display: grid;
+  place-items: center;
+}
+.value-card h3 { margin-top: 16px; }
